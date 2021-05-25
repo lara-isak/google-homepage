@@ -5,23 +5,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Google Homepage</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
-    <div class="header-left">
-      <p>About</p>
-      <p>Store</p>
-    </div>
+  <nav>
+    <ul class="nav-left">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Store</a></li>
+    </ul>
 
-    <div class="header-right">
-      <p>Gmail</p>
-      <p>Images</p>
-      <img src="/images/apps-logo.png" alt="Apps logo">
-      <img src="/images/profile-pic.jpg" alt="Profile picture">
-    </div>
-  </header>
+    <ul class="nav-right">
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><span class="material-icons-outlined">apps</span></li>
+      <li><img src="/images/profile-pic.jpg" alt="Profile picture"></li>      
+    </ul>
+  </nav>
   
   <main>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
@@ -33,7 +34,7 @@
       <button>I'm Feeling...</button>
     </div>
 
-    <p>Google offered in: Deutsch</p>
+    <p>Google offered in: <a href="#">Deutsch</a></p>
   </main>
 
   <footer>
