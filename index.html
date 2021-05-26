@@ -19,7 +19,7 @@
     <ul class="nav-right">
       <li><a href="#">Gmail</a></li>
       <li><a href="#">Images</a></li>
-      <li><span class="material-icons-outlined">apps</span></li>
+      <li><span class="material-icons-outlined" id="apps-icon">apps</span></li>
       <li><img src="/images/profile-pic.jpg" alt="Profile picture"></li>      
     </ul>
   </nav>
@@ -27,11 +27,15 @@
   <main>
     <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
 
-    <input type="text" name="search" id="search">
+    <div id="search">
+      <span class="material-icons-outlined" id="search-icon">search</span>
+      <span class="material-icons-outlined" id="mic-icon">mic</span>
+      <input type="text" name="search">
+    </div>
 
     <div>
       <button>Google Search</button>
-      <button>I'm Feeling...</button>
+      <button>I'm Feeling Lucky</button>
     </div>
 
     <p>Google offered in: <a href="#">Deutsch</a></p>
