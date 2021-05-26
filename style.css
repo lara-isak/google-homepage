@@ -88,14 +88,76 @@ nav img:hover {
 /* Main section */
 
 main {
-  /* margin-top: 200px; */
+  margin-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+main img {
+  margin-bottom: 20px;
+}
 
+#search {
+  min-width: 550px;
+  margin-bottom: 30px;
+}
+
+#search-icon {
+  position: absolute;
+  padding: 12px;
+  color: #b8b8b8;
+  font-size: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px;
+  padding: 13px 40px;
+  font-size: 16px;
+}
+
+input[type="text"]:focus-visible {
+  outline: none;
+}
+
+input[type="text"]:hover,
+input[type="text"]:focus-visible {
+  box-shadow: 0px 0px 4px 0px #ccc;
+}
+
+#mic-icon {
+  position: absolute;
+  margin-left: 506px;
+  padding: 12px;
+  color: #b8b8b8;
+  font-size: 20px;
+}
+
+div > button {
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #636363;
+  background: #f7f7f7;
+}
+
+div > button:first-child {
+  margin-right: 10px;
+}
+
+div > button:hover {
+  box-shadow: 0px 0px 2px 0px #9b9b9b, 0px 2px 2px 0px #c2c2c2;
+}
+
+main > p {
+  font-size: 13px;
+}
 
 /* Footer */
 
