@@ -175,9 +175,12 @@ footer {
   justify-content: space-between;
   margin-top: auto;
   padding: 15px 20px;
-  color: #636363;
   background-color: #ebebeb;
   border-top: 1px solid #dadada;
+}
+
+footer a {
+  color: #636363;
 }
 
 .footer-left,
@@ -185,8 +188,8 @@ footer {
   display: flex;
 }
 
-.footer-left p:nth-child(-n + 2),
-.footer-right p:nth-child(-n + 2) {
+.footer-left a:nth-child(-n + 2),
+.footer-right a:nth-child(-n + 2) {
   margin-right: 25px;
 }
 
