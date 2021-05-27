@@ -8,7 +8,6 @@
 /* General rules */
 
 body {
-  min-width: 400px;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -159,20 +158,26 @@ main > p {
   font-size: 13px;
 }
 
+
 /* Footer */
 
 footer {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   margin-top: auto;
+  padding: 15px 20px;
+  color: #636363;
+  background-color: #ebebeb;
+  border-top: 1px solid #dadada;
 }
 
-.bottom-footer {
+.footer-left,
+.footer-right {
   display: flex;
-  justify-content: space-around;
 }
 
-.bottom-footer-left,
-.bottom-footer-right {
-  display: flex;
+.footer-left p:nth-child(-n + 2),
+.footer-right p:nth-child(-n + 2) {
+  margin-right: 25px;
 }
+
