@@ -185,7 +185,7 @@ main img {
   margin-bottom: 20px;
 }
 
-#search {
+#search-field {
   min-width: 550px;
   margin-bottom: 30px;
 }
@@ -222,6 +222,10 @@ input[type="text"]:focus-visible {
   font-size: 20px;
 }
 
+.search-buttons {
+  display: flex;
+}
+
 .search,
 .lucky {
   margin-bottom: 30px;
@@ -248,7 +252,7 @@ main > p {
 }
 
 @media screen and (max-width: 599px) {
-  #search {
+  #search-field {
     min-width: 90%;
   }
 
