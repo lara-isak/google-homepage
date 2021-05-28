@@ -98,6 +98,38 @@ nav a {
   overflow-y: auto;
 }
 
+.apps-card > button {
+  grid-column: span 3;
+  justify-self: center;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  /* For creating space below the last element in an overflow div */
+  border-bottom: 20px solid #fff;
+  position: relative;
+  color: #2d67e6;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+/* For adding second border to the button element */
+.apps-card > button:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0;
+  border: 1px solid #dfdfdf;
+  border-radius: 5px;
+}
+
+.apps-card > button:hover:after {
+  border: 1px solid #bddaff;
+  background-color: rgba(189, 218, 255, 0.1);
+  cursor: pointer;
+}
+
 .app {
   display: flex;
   flex-direction: column;
@@ -172,7 +204,8 @@ input[type="text"]:focus-visible {
   font-size: 20px;
 }
 
-div > button {
+.search,
+.lucky {
   margin-bottom: 30px;
   padding: 10px 15px;
   border: none;
@@ -183,11 +216,12 @@ div > button {
   background: #f7f7f7;
 }
 
-div > button:first-child {
+.search {
   margin-right: 10px;
 }
 
-div > button:hover {
+.search:hover,
+.lucky:hover {
   box-shadow: 0px 0px 2px 0px #9b9b9b, 0px 2px 2px 0px #c2c2c2;
 }
 
