@@ -158,6 +158,19 @@ nav a {
   border-radius: 10px;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(209, 209, 209, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
 /* Main section */
 
 main {
