@@ -59,6 +59,17 @@ nav a {
   color: #000;
 }
 
+.profile-pic {
+  display: block;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.profile-pic:hover {
+  border: 3px solid #e9e9e9;
+  cursor: pointer;
+}
+
 .apps-icon {
   color: #727272;
   padding: 6px;
@@ -80,6 +91,8 @@ nav a {
   cursor: pointer;
 }
 
+/* Apps Card */
+
 .apps-card {
   z-index: 2;
   display: none;
@@ -98,22 +111,25 @@ nav a {
   overflow-y: auto;
 }
 
-.apps-card > button {
+.apps-card form {
   grid-column: span 3;
   justify-self: center;
-  padding: 10px 20px;
   margin-top: 10px;
-  border: none;
   /* For creating space below the last element in an overflow div */
   border-bottom: 20px solid #fff;
+}
+
+.apps-card button {
   position: relative;
+  border: none;
+  padding: 10px 20px;
   color: #2d67e6;
   background-color: #fff;
   font-size: 14px;
 }
 
 /* For adding second border to the button element */
-.apps-card > button:after {
+.apps-card button:after {
   content: "";
   position: absolute;
   top: 0px;
@@ -124,7 +140,7 @@ nav a {
   border-radius: 5px;
 }
 
-.apps-card > button:hover:after {
+.apps-card button:hover:after {
   border: 1px solid #bddaff;
   background-color: rgba(189, 218, 255, 0.1);
   cursor: pointer;
@@ -140,17 +156,6 @@ nav a {
 .app:hover {
   background-color: rgba(221, 232, 255, 0.7);
   border-radius: 10px;
-}
-
-nav img {
-  display: block;
-  border: 3px solid #fff;
-  border-radius: 50%;
-}
-
-nav img:hover {
-  border: 3px solid #e9e9e9;
-  cursor: pointer;
 }
 
 /* Main section */
