@@ -1,20 +1,20 @@
 # google-into-google
 
-Curriculum: [The Odin Project](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css)
+Google Homepage deconstructed and rebuilt from scratch with a few easter eggs add just for the fun of it. :mag:
 
-Project Name: **Google Homepage**
+You can check out the page [here](https://lara-isak.github.io/google-into-google/).
 
-Project Link: https://lara-isak.github.io/google-homepage/
+![](images/gh-screenshot.png)
 
-Task: **Deconstruct Google homepage and rebuild it from scratch**
+### :thumbsup: Motivation behind the project
+Better understanding of **elements' placement and alignment** on the page using **Flexbox and Grid** properties
 
-Goal: **Start thinking about how elements get placed on the page and roughly how they get styled and aligned**
+### :seedling: What I learned
+:arrow_right: difference between **Flexbox (one-dimensional)** and **Grid (two-dimensional)** layout </br>
+:arrow_right: how to **structure content** in HTML based on its functionality (**header, nav, main, footer**) </br>
+:arrow_right: how to use **:nth-child() CSS pseudo-class** to select elements based on their position in a group of siblings </br>
+:arrow_right: how to position an element using **absolute and relative** position values </br>
+:arrow_right: how to fix an **issue with an overflow property** and the padding / margin of the last element in a container
 
-Tech Stack:
-- **HTML**
-- **CSS (including Flexbox, Grid, pseudo elements...)**
-- **A sprinkle of JavaScript**
 
-Note: **There are a few easter eggs 🥚 on the page. Hope you'll enjoy them.** 🙂
 
-![Project Screenshot](https://github.com/lara-isak/google-homepage/blob/main/images/gh-screenshot.png?raw=true)
