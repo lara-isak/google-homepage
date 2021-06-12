@@ -4,8 +4,6 @@ Google Homepage deconstructed and rebuilt from scratch with a few easter eggs ad
 
 You can check out the page [here](https://lara-isak.github.io/google-into-google/).
 
-![](images/gh-screenshot.png)
-
 ### :thumbsup: Motivation behind the project
 Better understanding of **elements' placement and alignment** on the page using **Flexbox and Grid** properties
 
@@ -16,5 +14,4 @@ Better understanding of **elements' placement and alignment** on the page using 
 :arrow_right: how to position an element using **absolute and relative** position values </br>
 :arrow_right: how to fix an **issue with an overflow property** and the padding / margin of the last element in a container
 
-
-
+![](images/gh-screenshot.png)
