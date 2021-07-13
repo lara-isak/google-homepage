@@ -1,6 +1,6 @@
 # google-into-google
 
-Google Homepage deconstructed and rebuilt from scratch with a few easter eggs add just for the fun of it. :mag:
+Google Homepage deconstructed and rebuilt from scratch with a few easter eggs added just for the fun of it. :mag:
 
 You can check out the page [here](https://lara-isak.github.io/google-into-google/).
 
